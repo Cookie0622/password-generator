@@ -9,4 +9,7 @@ function generatePassword() {
     }
     return password;
 }
+
+module.exports = generatePassword();
+
 console.log("Generated Password: " + generatePassword());
